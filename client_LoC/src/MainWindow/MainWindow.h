@@ -3,11 +3,14 @@
 
 #include <QMainWindow>
 #include <QToolBar>
+#include <QPushButton>
+#include <QLabel>
 
 #include "View.h"
 #include "ToolBar.h"
 #include "GraphicsScene.h"
 #include "CanvasController.h"
+
 
 
 
@@ -30,6 +33,9 @@ private:
     ToolBar *toolbar = nullptr;
     CanvasController* controller = nullptr;
 
+    QPushButton* connectButton;
+    QPushButton* createNewButton;
+    QLabel* label;
 
     void createScene();
     void createView(GraphicsScene *scene_);
@@ -37,7 +43,7 @@ private:
     void createController();
 
 protected:
-    void ResizeEvent( QResizeEvent* event);
+    void resizeEvent( QResizeEvent* event);
 
 public slots:
     void onCreateNewButtonClicked();

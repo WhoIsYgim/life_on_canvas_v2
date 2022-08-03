@@ -11,54 +11,9 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Life On Canvas</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="connectButton">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>290</y>
-      <width>301</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Connect to existing canvas</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>70</y>
-      <width>521</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>50</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>LIFE ON CANVAS</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="createNewButton">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>200</y>
-      <width>301</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Create new canvas</string>
-    </property>
-   </widget>
-  </widget>
+  <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
