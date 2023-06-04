@@ -1,0 +1,4 @@
+add_subdirectory(CanvasController)
+add_subdirectory(GraphicsItems)
+add_subdirectory(MainWindow)
+add_subdirectory(Storage)
